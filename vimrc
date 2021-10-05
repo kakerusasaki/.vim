@@ -1,6 +1,5 @@
 if !isdirectory('~/.vim/plugged')
-	echo system('curl -fLo ~/.vim/autoload/plug.vim --create-dirs \
-				\ https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim')
+	echo system('curl -fLo ~/.vim/autoload/plug.vim --create-dirs https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim')
 endif
 
 call plug#begin('~/.vim/plugged')
